@@ -1,3 +1,25 @@
 * {
   font-family: Georgia;
 }
+
+/* Para la barra de navegación */
+.navbar {
+    background-color: rgb(166, 226, 218);
+    opacity: .85;
+    border-radius: 10px;
+    font-family: Georgia;
+    position: fixed;
+    top: 5;
+    width: 98.25%;
+    height: 50px;
+    margin: 5px 5px 0 5px;
+    z-index: 1;
+}
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
